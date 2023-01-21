@@ -1,0 +1,15 @@
+﻿<Window x:Class="WpfApp9_pd.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp9_pd"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="450" ResizeMode="NoResize">
+
+    <WrapPanel Width="300">
+        <ProgressBar x:Name="pBar" Minimum="0" Maximum="310" Margin="40 20 0 30" Width="60" 
+                     VerticalContentAlignment="Bottom" Template="{StaticResource RoundProgresBarTemplate}"/>
+        <Button x:Name="btnClick" Click="Button_Click" Content="Click" Margin="35" FontSize="15" FontWeight="Black" Width="130" Height="30" HorizontalAlignment="Left"/>
+    </WrapPanel>
+</Window>
